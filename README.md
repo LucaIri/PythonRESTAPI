@@ -24,3 +24,8 @@ If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 w
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
+
+## Windows
+Go to the following link and download the appropriate Python version for your machine:
+
+(https://www.python.org/downloads/)
