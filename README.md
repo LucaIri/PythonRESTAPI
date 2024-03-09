@@ -15,3 +15,12 @@ This program was written in Python, utilizing the "json", "requests", and "re" b
 No external libraries were downloaded for this project.
 
 Link to mock JSON file(provided by Dr. Hassan): (https://foyzulhassan.github.io/files/favs.json)
+
+## Python Download
+## Linux
+If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
