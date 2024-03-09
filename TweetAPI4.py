@@ -24,7 +24,9 @@ User_scrn_nm = input("Enter Username(type \"q\" to quit): ")
 while User_scrn_nm != "q":
     while User_scrn_nm not in username_list:
         print("Invalid username; Please try again: ")
-        User_scrn_nm = input("Enter Username: ")
+        User_scrn_nm = input("Enter Username(\"q\" to quit): ")
+        if User_scrn_nm=="q":
+            exit(1)
 
     #iterator var
     count = 0
