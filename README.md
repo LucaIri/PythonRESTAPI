@@ -6,4 +6,5 @@ The 3rd API gets the tweet creation date, text, and username details about a giv
 The 4th API gets detailed profile information: location, description, followers count, and friends count. Info is collected given the Twitter user's username.
 This program was written in Python, utilizing the "json", "requests", and "re" built-in libaries.
 # How To Run
-
+No external libraries were downloaded for this project.
+Link to mock JSON file(provided by Dr. Hassan): (https://foyzulhassan.github.io/files/favs.json)
