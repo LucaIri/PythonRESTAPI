@@ -19,6 +19,8 @@ No external libraries were downloaded for this project.
 
 Link to mock JSON file(provided by Dr. Hassan): (https://foyzulhassan.github.io/files/favs.json)
 
+Download project as ZIP file and open each file in your preferred IDE.
+
 ## Python Download
 
 ## Linux
