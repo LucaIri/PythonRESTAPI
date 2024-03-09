@@ -12,11 +12,15 @@ The 4th API gets detailed profile information: location, description, followers 
 This program was written in Python, utilizing the "json", "requests", and "re" built-in libaries.
 
 # How To Run
+## General Rules
+Each file is titled with the appropriate API number, so run each file individually.
+
 No external libraries were downloaded for this project.
 
 Link to mock JSON file(provided by Dr. Hassan): (https://foyzulhassan.github.io/files/favs.json)
 
 ## Python Download
+
 ## Linux
 If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
 
@@ -34,3 +38,4 @@ Go to the following link and download the appropriate Python version for your ma
 Go to the following link and download the appropriate Python version for your machine:
 
 (https://www.python.org/downloads/macos/)
+
