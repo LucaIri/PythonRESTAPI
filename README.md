@@ -29,3 +29,8 @@ $ sudo apt-get install python3.6
 Go to the following link and download the appropriate Python version for your machine:
 
 (https://www.python.org/downloads/)
+
+## Mac OS
+Go to the following link and download the appropriate Python version for your machine:
+
+(https://www.python.org/downloads/macos/)
