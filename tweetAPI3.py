@@ -14,18 +14,24 @@ response = requests.get("https://foyzulhassan.github.io/files/favs.json")
 #Load JSON file into a single list object
 response_json = json.loads(response.text)
 
+
+
+
+
+def findTweet(inp):
+    #counter vairable for iteration
+    count = 0
+    for tweet in response_json:
+        if (response_json[count]['id_str']==inp):
+            print("Tweet Found!")
+            print("     Posted on: {}".format(response_json[count]['created_at']))
+            print("     Content: {}".format(response_json[count]['text']))
+            print("     Username: {}".format(response_json[count]['user']['screen_name']))
+        count+=1
+
+
 # API 3: Get following parameters: created_at, text, screen_name, from a GIVEN input id(hint: input())
 input_id = input("Input tweet ID: ")
 input_id_str = str(input_id)
-#print(input_id_str)
 
-#counter vairable for iteration
-count = 0
-
-for tweet in response_json:
-    if (response_json[count]['id_str']==input_id_str):
-        print("Tweet Found!")
-        print("     Posted on: {}".format(response_json[count]['created_at']))
-        print("     Content: {}".format(response_json[count]['text']))
-        print("     Username: {}".format(response_json[count]['user']['screen_name']))
-    count+=1
+findTweet(input_id_str)
